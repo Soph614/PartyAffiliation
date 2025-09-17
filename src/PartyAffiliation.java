@@ -6,7 +6,7 @@ public class PartyAffiliation
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
-        System.out.println("D = Democrat\nR = Republican\nI = Independent\nOther = Other\nWhat is your party affiliation? ");
+        System.out.println("D = Democrat\nR = Republican\nI = Independent\n(other) = Other\nWhat is your party affiliation? ");
         String affiliation = in.nextLine();
         affiliation = affiliation.toUpperCase();
             if (Objects.equals(affiliation, "D"))
@@ -23,7 +23,7 @@ public class PartyAffiliation
             }
             else
             {
-                System.out.println("You are not a democrat, republican, or independent!");
+                System.out.println("You are not democratic, republican, or independent!");
             }
     }
 }
