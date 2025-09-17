@@ -19,7 +19,7 @@ public class PartyAffiliation
             }
             else if (Objects.equals(affiliation, "I"))
             {
-                System.out.println("You get an independent man.");
+                System.out.println("You get an Independent Man.");
             }
             else
             {
